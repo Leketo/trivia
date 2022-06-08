@@ -11,11 +11,11 @@ const Home = () => {
   <View style={styles.container}>
     <Title />
     <View style={styles.bannerContainer }>
-      <Text>Son 10 preguntas de opcion multiple</Text>
+      <Text style={styles.title}>Son 10 preguntas de opcion multiple</Text>
     </View>
     
     <View>
-      <Text>Podes lograr 100%?</Text>
+      <Text style={styles.title}>Podes lograr 100%?</Text>
     </View>
 
     <TouchableOpacity onPress={() => {navigation.navigate('Quiz')}} style={styles.button}>
@@ -55,5 +55,10 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: '600',
     color: 'white',
-  }
+  },
+  title:{
+    fontSize: 36,
+    fontWeight: '600'
+  },
+  
 });

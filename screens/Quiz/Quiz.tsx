@@ -148,5 +148,5 @@ const styles = StyleSheet.create({
   },
   parent: {
     height: '100%'
-  }
+  },
 }); 
